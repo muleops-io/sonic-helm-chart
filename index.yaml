@@ -1,12 +1,20 @@
 apiVersion: v1
 entries:
+  sonic:
+  - apiVersion: v1
+    appVersion: v1.4.0
+    created: "2023-03-28T12:26:33.863076103Z"
+    description: Sonic is a fast, lightweight and schema-less search backend
+    digest: 6c031d9c341982dff92138c7389c7a044c36022c3e17ca7e1275f261da0f5fc0
+    name: sonic
+    urls:
+    - https://github.com/muleops-io/sonic-helm-chart/releases/download/sonic-0.3.0/sonic-0.3.0.tgz
+    version: 0.3.0
   sonic-helm-chart:
   - apiVersion: v1
     appVersion: v1.4.0
     created: "2023-03-28T14:14:40.38706+02:00"
-    description: Sonic is a fast, lightweight and schema-less search backend. It ingests
-      search texts and identifier tuples that can then be queried against in a microsecond's
-      time.
+    description: Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.
     digest: 9598f1bb8146935ae3da941da3b43436cb0b05c869df415fc0f5c506250cdc13
     name: sonic-helm-chart
     urls:
